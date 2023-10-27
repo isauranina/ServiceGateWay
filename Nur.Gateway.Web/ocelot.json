@@ -1,0 +1,116 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jsonplaceholder.typicode.com",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/users",
+      "Key": "users" //identificador
+
+
+
+      //"Key": "menu-item",
+      //"UpstreamPathTemplate": "/api/menu/{itemId}",
+      //"UpstreamHttpMethod": [ "GET" ],
+
+      //"DownstreamPathTemplate": "/api/menu/{itemId}",
+      //"DownstreamScheme": "https",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 7008
+      //  }
+      //]
+    },
+    {
+      "UpstreamPathTemplate": "/api/posts",
+      "UpstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jsonplaceholder.typicode.com",
+          "Port": 443
+        }
+      ],
+      "DownstreamPathTemplate": "/posts",
+      "Key": "posts" //identificador
+    }
+
+    //{
+    //  "Key": "inventario-item",
+    //  "UpstreamPathTemplate": "/api/Item/{itemId}",
+    //  "UpstreamHttpMethod": [ "GET" ],
+
+    //  "DownstreamPathTemplate": "/api/Item/{itemId}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7007
+    //    }
+    //  ]
+    //},
+    //{
+
+    //  "UpstreamPathTemplate": "/api/item",
+    //  "UpstreamHttpMethod": [ "GET" ],
+
+    //  "DownstreamPathTemplate": "/api/item",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7007
+    //    }
+    //  ],
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+    //{
+
+    //  "UpstreamPathTemplate": "/api/security/login",
+    //  "UpstreamHttpMethod": [ "POST" ],
+
+    //  "DownstreamPathTemplate": "/api/security/login",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7117
+    //    }
+    //  ]
+    //}
+
+
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [ "users", "posts" ],
+      "UpstreamPathTemplate": "/api/user-posts", // /api/user-posts
+      "Aggregator": "UsersPostsAggregator"
+    }
+  ],
+  //"Aggregates": [
+  //  {
+  //    "RouteKeys": [
+  //      "menu-item",
+  //      "inventario-item"
+  //    ],
+  //    "UpstreamPathTemplate": "/api/item-detail/{itemId}",
+  //    "Aggregator": "MenuItemDetailAggregator"
+
+  //  }
+  //],
+
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7139" // punto de entrada apigateway
+  }
+}
