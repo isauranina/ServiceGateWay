@@ -10,22 +10,9 @@
         }
       ],
       "DownstreamPathTemplate": "/users",
+      "DownstreamScheme": "https",
       "Key": "users" //identificador
 
-
-
-      //"Key": "menu-item",
-      //"UpstreamPathTemplate": "/api/menu/{itemId}",
-      //"UpstreamHttpMethod": [ "GET" ],
-
-      //"DownstreamPathTemplate": "/api/menu/{itemId}",
-      //"DownstreamScheme": "https",
-      //"DownstreamHostAndPorts": [
-      //  {
-      //    "Host": "localhost",
-      //    "Port": 7008
-      //  }
-      //]
     },
     {
       "UpstreamPathTemplate": "/api/posts",
@@ -37,56 +24,9 @@
         }
       ],
       "DownstreamPathTemplate": "/posts",
+      "DownstreamScheme": "https",
       "Key": "posts" //identificador
     }
-
-    //{
-    //  "Key": "inventario-item",
-    //  "UpstreamPathTemplate": "/api/Item/{itemId}",
-    //  "UpstreamHttpMethod": [ "GET" ],
-
-    //  "DownstreamPathTemplate": "/api/Item/{itemId}",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7007
-    //    }
-    //  ]
-    //},
-    //{
-
-    //  "UpstreamPathTemplate": "/api/item",
-    //  "UpstreamHttpMethod": [ "GET" ],
-
-    //  "DownstreamPathTemplate": "/api/item",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7007
-    //    }
-    //  ],
-
-    //  "AuthenticationOptions": {
-    //    "AuthenticationProviderKey": "Bearer",
-    //    "AllowedScopes": []
-    //  }
-    //},
-    //{
-
-    //  "UpstreamPathTemplate": "/api/security/login",
-    //  "UpstreamHttpMethod": [ "POST" ],
-
-    //  "DownstreamPathTemplate": "/api/security/login",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7117
-    //    }
-    //  ]
-    //}
 
 
   ],
@@ -97,17 +37,7 @@
       "Aggregator": "UsersPostsAggregator"
     }
   ],
-  //"Aggregates": [
-  //  {
-  //    "RouteKeys": [
-  //      "menu-item",
-  //      "inventario-item"
-  //    ],
-  //    "UpstreamPathTemplate": "/api/item-detail/{itemId}",
-  //    "Aggregator": "MenuItemDetailAggregator"
 
-  //  }
-  //],
 
 
   "GlobalConfiguration": {
