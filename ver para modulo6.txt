@@ -1,0 +1,14 @@
+https://www.youtube.com/playlist?list=PL9B-92Xt-uA6rnaauRZ2pwCtlOT199wuS
+RabbitMq
+https://www.youtube.com/watch?v=iQ4kENLfaNI&list=PLalrWAGybpB-UHbRDhFsBgXJM1g6T4IvO --tuto completo
+https://www.youtube.com/watch?v=deG25y_r6OY --mesage broker
+https://www.youtube.com/watch?v=BOrN2rgBMKI --Microservices Architecture || Message Broker and Transports
+https://www.youtube.com/watch?v=4FFYefcx4Bg --MassTransit
+https://www.youtube.com/watch?v=FQVpDbNY6pg -HOW TO CONFIGURE RABBITMQ IN A .NET CORE API
+https://www.youtube.com/watch?v=mmFnCkgyMIE --RabbitMq Tutorial in .net core Microservices using Masstransit with practical example
+https://www.youtube.com/watch?v=BYKC9w-eHN4&t=912s --Tutorial RabbitMQ Con ejemplo en C#
+https://www.youtube.com/watch?v=OhrxwHGYGfI&t=23s --https://www.youtube.com/watch?v=OhrxwHGYGfI&t=23s
+https://www.youtube.com/watch?v=e03c3CIGtYU --2 Hours RabbitMQ Course with NodeJS, Pros & Cons, Cloud RMQ, RMQ vs Kafka, RMQ
+https://www.youtube.com/watch?v=CTKWFMZVIWA&t=169s --What Is A Message Queue And Why RabbitMQ I
+https://www.youtube.com/watch?v=eEipVEq8F1k --.NET 6 - Message Broker with RabbitMQ 
+https://www.youtube.com/watch?v=QBi82HRwCcQ&list=PLefG3VDSLxSy2DNezEos2uozgfC5VcroD --RabbitMQ ASP NET CORE 5 (part-01)
