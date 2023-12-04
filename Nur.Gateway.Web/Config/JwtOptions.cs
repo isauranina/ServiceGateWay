@@ -13,8 +13,8 @@ public class JwtOptions
 
     public JwtOptions()
     {
-        SecretKey = "";
-        ValidIssuer = "";
-        ValidAudience = "";
+	 SecretKey = "";
+	 ValidIssuer = "";
+	 ValidAudience = "";
     }
 }

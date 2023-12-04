@@ -2,6 +2,6 @@
 {
     public class InventarioItem
     {
-        public int Stock { get; set; }
+	 public int Stock { get; set; }
     }
 }
